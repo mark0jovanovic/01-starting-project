@@ -14,7 +14,7 @@ function App() {
     console.log(selectedTopic);
 }
   return (
-    <div>
+    <>
       <Header/>
      
       <main>
@@ -68,7 +68,7 @@ function App() {
         </section>
         <h2>Time to get started!</h2>
       </main>
-    </div>
+    </>
   );
 }
 
