@@ -9,7 +9,7 @@ function handleSelect(selectedButton) {
   setSelectedTopic(selectedButton);
   console.log(selectedTopic);
 }
-    return(<>
+    return(
         <section id='examples'>
           <h2>Examples</h2>
           <menu>
@@ -36,9 +36,9 @@ function handleSelect(selectedButton) {
           
 
 
-
+          <h2>Time to get started!</h2>
         </section>
-        <h2>Time to get started!</h2>
-        </>
+        
+        
     )
 }
